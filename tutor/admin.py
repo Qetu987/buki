@@ -1,5 +1,5 @@
 from django.contrib import admin
-from tutor.models import Region, City, Tutor
+from tutor.models import Region, City, Tutor, Subject
 
 @admin.register(Region)
 class UserAdmin(admin.ModelAdmin):
@@ -21,3 +21,11 @@ class TutorAdmin(admin.ModelAdmin):
     list_display_links = ['id','first_name', 'last_name', 'city']
     list_search = ['id', 'first_name', 'last_name', 'email']
     list_filter = ['is_active', 'city']
+
+
+@admin.register(Subject)
+class SubjectAdmin(admin.ModelAdmin):
+    list_display = ['id', 'name', 'name_slug', 'is_active']
+    list_display_links = ['id','name', 'name_slug']
+    list_search = ['id', 'name', 'name_slug']
+    list_filter = ['is_active']

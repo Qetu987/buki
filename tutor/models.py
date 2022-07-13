@@ -40,3 +40,13 @@ class Tutor(models.Model):
     
     def __str__(self):
         return f'{self.id}_{self.first_name[:3]}_{self.last_name[:5]}'
+
+
+class Subject(models.Model):
+    name = models.CharField(max_length=30)
+    name_slug = models.CharField(max_length=30)
+    is_active = models.BooleanField(default=True)
+    desc = models.TextField(max_length=999, null=True, blank=True)
+    
+    def __str__(self):
+        return f'{self.id}_{self.name_slug}'

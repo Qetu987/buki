@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+}
+
+p, h1, h2{
+	margin-bottom: 0;
+	font-family: 'Jost';
+}
+
+.margin-l16{ margin-left: 16px; }
+.margin-r12{ margin-right: 12px; }
+.margin-l12{ margin-left: 12px; }
+.margin-b12{ margin-bottom: 12px; }
+.main_color{ color: #191C1D; }
+.margin-t64{ margin-top: 64px; }
+.margin-b64{ margin-bottom: 64px; }
+.margin-t48{ margin-top: 48px; }
+.margin-t96{ margin-top: 96px; }
+.margin-t128{ margin-top: 128px; }
+.height96{ height: 96px; }
+.margin-t88{ margin-top: 88px; }
+.margin-b96{ margin-bottom: 96px; }
+.margin-b32{ margin-bottom: 32px; }
+.acent_back{ background: #DFE0FF; }
+.margin-0{ margin: 0; }
+.height-24{ height: 24px; }
+.margin-t24{ margin-top: 24px; }
+.margin-b24{ margin-bottom: 24px; }
+.text_acent{ color: #00006F; }
+.block{ width: 100%; }
+
+
+.p_regular{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.h1_medium{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 39px;
+	line-height: 110%;
+}
+
+.h2_medium{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 120%;
+}
+
+.h3_medium{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 120%;
+}
+
+.subtitle{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.naw_block{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.content{
+	width: 1600px;
+}
+.logo span{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 120%;
+}
+
+.logo img{
+	width: 48px;
+	height: 48px;
+}
+
+.button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 24px;
+	border-radius: 20px;
+}
+
+.naw_button{ 
+	color: #4E4E4E; 
+	transition: .3s;
+}
+
+.naw_button:hover{ color: #343DFF; }
+
+.sign_up{
+	border: 1px solid #343DFF;
+}
+
+.sign_in{
+	background: #343DFF;
+}
+
+.auth_button p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.sign_up p{
+	color: #343DFF;
+}
+
+.sign_in p{
+	color: #ffffff;
+}
+
+
+
+.main_photo{
+	height: 600px;
+	border-radius: 32px;
+}
+
+.main_photo_title h1{
+	width: 651px;
+
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 49px;
+	line-height: 110%;
+	/* or 54px */
+
+
+	/* sys/Neutral/background */
+
+	color: #FBFDFD;
+}
+
+.main_photo_title p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	/* identical to box height, or 26px */
+
+
+	/* sys/Neutral/background */
+
+	color: #FBFDFD;
+
+}
+
+.main_photo_desc{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	/* or 22px */
+
+
+	/* sys/Neutral/background */
+
+	color: #FBFDFD;
+
+	margin-top: 48px;
+	margin-bottom: 24px;
+
+	width: 385px;
+}
+
+
+
+.main_photo_form{
+	width: 481px;
+	height: 120px;
+
+	background: #FFFFFF;
+	border-radius: 16px;
+}
+
+.main_photo_form p{
+	padding: 16px 0px 8px 24px;
+
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+
+.main_info_card{
+	height: 124px;
+	border: 1px solid #AFAFAF;
+	border-radius: 12px;
+}
+
+.cadr_photo{
+	border-radius: 12px 0 0 12px;
+	width: 50%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.card_desc{
+	width: 50%;
+}
+
+.card_text{
+	margin: 24px;
+}
+
+.card_text p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+
+	margin-top: 16px;
+	color: #4E4E4E;
+}
+
+
+.main_principle_card{
+	width: 100%;
+	min-height: 226px;
+	border-radius: 12px;
+}
+
+.main_principle_border{
+	border: 1px solid #AFAFAF;
+}
+
+.main_principle_card .icon_circle{
+	width: 64px;
+	height: 64px;
+	margin-left: 24px;
+	background: #343DFF;
+	border-radius: 78px;
+
+}
+
+
+.main_principle_card .icon_acent_circle{
+	background: #00006F;
+}
+
+.main_principle_text{
+	margin: 24px;
+}
+
+.main_principle_text p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.main_principle_text p.text_acent{
+	opacity: 0.7;
+}
+
+.button_unfill{
+	border: 1px solid #00006F;
+	margin: 6px 12px 6px 0px;
+}
+
+.show_all{
+	background: rgba(52, 61, 255, 0.15);
+	border: none;
+}
+
+.subjects_footer{
+	max-width: 1000px;
+}
+
+.footer_people{
+	height: 40px;
+	width: 40px;
+}
+
+.super_tutor{
+	height: 561px;
+	border-radius: 24px;
+	object-fit: cover;
+}

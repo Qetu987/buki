@@ -1,0 +1,34 @@
+<div class="acent_back">
+    <div class="container margin-t96">
+        <div class="height96"></div>
+        <div class="row">
+            <div class="col-xl-6">
+                <h1 class="h1_medium text_acent">Save your time and receive strong knowledge in any fields you want</h1>
+                <p class="p_regular text_acent margin-t24 margin-b24">Choose the subject you want to learn and then you can choose a tutor and get an appointment when it will be comfortable for you.</p>
+
+                <div class="button_field">
+                    <div class="d-flex flex-wrap">
+                        {% for subject in subjects %}
+                            <a href="">
+                                <div class="button button_unfill margin-r12">
+                                    <p class="p_regular text_acent">{{ subject.name }}</p>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+
+                    <div class="d-flex margin-t12">
+                        <a href="">
+                            <div class="button button_unfill show_all">
+                                <p class="p_regular">Show all</p>
+                            </div>
+                        </a>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="col-xl-6"></div>
+        </div>
+        <div class="height96"></div>
+    </div>
+</div>

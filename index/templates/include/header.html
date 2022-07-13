@@ -1,0 +1,29 @@
+{% load static %}
+<div class="container naw_block">
+    <div class="row">
+        <div class="col d-flex justify-content-between">
+            <div class="logo d-flex align-items-center">
+                <img src="{% static 'img/logo_black.svg' %} " alt="">
+                <span class="margin-l16 main_color">TOSO</span>
+            </div>
+            
+            <div class="naw d-flex align-items-center">
+                {% include "include/naw/naw_header.html" %}
+            </div>
+
+            <div class="auth d-flex align-items-center">
+                <a href="">
+                    <div class="button sign_up">
+                        <p>Sign up</p>
+                    </div>
+                </a>
+
+                <a href="" class="margin-l16">
+                    <div class="button sign_in">
+                        <p>Sign in</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

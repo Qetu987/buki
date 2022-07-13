@@ -1,0 +1,44 @@
+{% load static %}
+
+<div class="acent_back">
+    <div class="container margin-t128">
+        <div class="row">
+            <div class="col-xl-12 margin-t64 d-flex justify-content-between">
+                <div class="logo d-flex align-items-center">
+                    <img src="{% static 'img/logo_footer.svg' %}" alt="">
+                    <span class="margin-l16 text_acent">TOSO</span>
+                </div>
+
+                <div class="naw d-flex align-items-center">
+                    {% include "include/naw/naw_footer.html" %}
+                </div>
+            </div>
+
+            <div class="col-xl-12 margin-t48 margin-b64 d-flex justify-content-between">
+                <div class="col-xl-8">
+                    <h3 class="h3_medium text_acent">Popular subjects</h3>
+                    <div class="d-flex flex-wrap margin-t24">
+                        {% for subject in subjects %}
+                            <a href="">
+                                <div class="button button_unfill margin-r12">
+                                    <p class="p_regular text_acent">{{ subject.name }}</p>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="col-xl-2">
+                    <h3 class="h3_medium text_acent text-end">Contacts</h3>
+                    <p class="p_regular text_acent text-end margin-t24 margin-b32">Developed by Someone<br> All rights reserved ©<br> 2014 - 2022</p>
+                    <div class="d-flex justify-content-end">
+                        <img src="{% static 'img/people_img.svg' %}" alt="" class="footer_people margin-l12">
+                        <img src="{% static 'img/people_img.svg' %}" alt="" class="footer_people margin-l12">
+                        <img src="{% static 'img/people_img.svg' %}" alt="" class="footer_people margin-l12">
+                        <img src="{% static 'img/people_img.svg' %}" alt="" class="footer_people margin-l12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
