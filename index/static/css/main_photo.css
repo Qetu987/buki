@@ -1,0 +1,74 @@
+.main_photo{
+	height: 600px;
+	border-radius: 32px;
+}
+
+.main_photo_title h1{
+	width: 651px;
+
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 49px;
+	line-height: 110%;
+	/* or 54px */
+
+
+	/* sys/Neutral/background */
+
+	color: #FBFDFD;
+}
+
+.main_photo_title p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	/* identical to box height, or 26px */
+
+
+	/* sys/Neutral/background */
+
+	color: #FBFDFD;
+
+}
+
+.main_photo_desc{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	/* or 22px */
+
+
+	/* sys/Neutral/background */
+
+	color: #FBFDFD;
+
+	margin-top: 48px;
+	margin-bottom: 24px;
+
+	width: 385px;
+}
+
+
+
+.main_photo_form{
+	width: 481px;
+	height: 120px;
+
+	background: #FFFFFF;
+	border-radius: 16px;
+}
+
+.main_photo_form p{
+	padding: 16px 0px 8px 24px;
+
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}

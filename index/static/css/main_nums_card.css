@@ -1,0 +1,32 @@
+.main_info_card{
+	height: 124px;
+	border: 1px solid #AFAFAF;
+	border-radius: 12px;
+}
+
+.cadr_photo{
+	border-radius: 12px 0 0 12px;
+	width: 50%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.card_desc{
+	width: 50%;
+}
+
+.card_text{
+	margin: 24px;
+}
+
+.card_text p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+
+	margin-top: 16px;
+	color: #4E4E4E;
+}

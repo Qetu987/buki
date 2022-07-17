@@ -1,0 +1,50 @@
+.button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 9px 24px;
+	border-radius: 20px;
+}
+
+.naw_button{ 
+	color: #4E4E4E; 
+	transition: .3s;
+}
+
+.naw_button:hover{ color: #343DFF; }
+
+.sign_up{
+	border: 1px solid #343DFF;
+}
+
+.sign_in{
+	background: #343DFF;
+}
+
+.auth_button p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.sign_up p{
+	color: #343DFF;
+}
+
+.sign_in p{
+	color: #ffffff;
+}
+
+.button_unfill{
+	border: 1px solid #00006F;
+	margin: 6px 12px 6px 0px;
+}
+
+.show_all{
+	background: rgba(52, 61, 255, 0.15);
+	border: none;
+}
+
